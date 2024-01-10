@@ -2,7 +2,7 @@ import { Alert, StyleSheet, TouchableOpacity, View } from 'react-native';
 import MapView, { Callout, Marker, PROVIDER_GOOGLE, Region } from 'react-native-maps';
 import { Stack, useNavigation } from 'expo-router';
 import React, { useEffect, useMemo, useRef, useState } from 'react';
-import { markers } from '../assets/markets';
+import { markers } from '../../assets/markets';
 import ListingsMap from '@/components/ListingsMap';
 import listingsDataGeo from '@/assets/data/airbnb-listings.geo.json';
 import listingsData from '@/assets/data/airbnb-listings.json';
